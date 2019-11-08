@@ -1,0 +1,87 @@
+@media screen and(max-width: 600px) {
+	fieldset,
+	legend,
+	h1,
+	body,
+	#input,
+	a,
+	table,
+	tr,
+	td, {
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+fieldset {
+	border-radius: 10px;
+	-moz-border-radius : 10px;
+	-webkit-border-radius: 10px;
+	margin: 0 0 10px 0;
+	padding: 20px;
+	border :2px solid black;
+	background : #edeeeb;
+
+}
+
+#input {
+	padding: 10px;
+	display: block;
+	outline: none;
+	border-radius: 14px;
+	-moz-border-radius : 14px;
+	-webkit-border-radius: 14px;
+	border : 1.5px solid black;
+}
+#input:hover {
+	border: 1.5px solid #31f0f2;
+}
+input {
+	margin: 5px;
+}
+legend {
+	text-align: center;
+	font-size: 25px;
+	color: blue;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande" ,"Sans-serif";
+	font-size:14px;
+	background: #31f0f2;
+}
+
+button {
+	width: 500px;
+	height: 37px;
+	margin: 7px;
+	border-radius: 20px;
+	border :2px solid #31f0f2 ;
+	background-color: #31f0f2 ;
+	color: grey;
+	font-size: 18px;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+button:hover {
+	border: 2px solid yellow;
+	background-color: yellow;
+	font-weight: bold;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	width: 450px;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+	margin: 10px auto;
+	background-color: white;
+	border-radius: 5px;
+}
+
+a {
+	color : red;
+}

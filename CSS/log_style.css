@@ -1,0 +1,138 @@
+#form {
+	text-align: center;
+	/*width: 500px;*/
+	background: #aaacac;
+	border-radius: 10px;
+	
+}
+/*p {
+	width: 370px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: red;
+	color: white;
+	font-style: italic;
+	font-size: 13px;
+	border-radius: 30px;
+}*/
+/*hr {
+	border: 1px solid black;
+}*/
+
+h2 {
+	margin: 20px auto;
+	padding: 15px;
+	width: auto;
+	position: relative;
+	font-size: 50px;
+	text-align: left;
+	background-color: grey;
+	color: white;
+	text-shadow: 0 0 3px 3px black;
+	border-radius: 5px;
+}
+
+.container {
+	margin: 20px auto;
+	width: 600px;
+	position: relative;
+	box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+	border-radius: 10px;
+}
+
+input {
+	font-size: 20px;
+	margin: 6px;
+	padding: 3px;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border :2px solid #31f0f2;
+	outline: none;
+}
+
+input:hover {
+	border :2px solid #ddd;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+
+button {
+	width: 500px;
+	height: 37px;
+	margin: 7px;
+	border-radius: 20px;
+	border :2px solid red;
+	background-color: red;
+	color: white;
+	font-size: 18px;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+}
+
+button:hover {
+	border :2px solid #31f0f2;
+	background-color: #31f0f2;
+	font-weight: bold;
+	color: black;
+}
+
+.login1 a{
+	margin: 10px auto;
+	display: block;
+	width: 350px;
+	/*box-shadow: 0 0 3px 3px rgba(0,0,0,.3);*/
+	border-radius: 25px;
+	height: 30px;
+	position: relative;
+}
+.login1 span {
+	color: black;
+	display: /*inline-*/block;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 25px;
+	width: 350px;
+	height: 30px;
+	background-color: rgba(170,245,91,.5);
+	position: absolute;
+	top: 0;
+	color: #333;
+	text-shadow: 2px 1px 2px white;
+
+}
+
+.login1 span:hover{
+	background: #31f0f2;
+	border: 2px solid #31f0f2;
+	font-weight: bold;
+}
+
+p {
+	font-family: times new roman;
+	font-size: 15px;
+	display: inline-block;
+	color:white;
+}
+
+.clear {
+	clear: both;
+}
+
+/*// Display For Tablet */
+@media screen (min-width: 500px) and (max-width: 600px) {
+	h2,
+	body,
+	a,
+	input,
+	button,
+	.login1,
+	#form {
+		width: 100%;
+		
+	}
+}
